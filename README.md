@@ -1,8 +1,17 @@
 # Hi, I'm iren 👋
 
-I'm an AI developer. I build tools with AI coding agents and put language models to work in small, useful apps, from a Chinese input method that runs a language model on-device to a workspace for running many Claude Code agents at once.
+I'm an AI developer. My main project is Agent Deck, a workspace for running many Claude Code agents at once. I also put language models to work in small, useful apps, like a Chinese input method that runs a language model on-device.
 
 🌐 **[iren.page](https://iren.page)**: demos, recordings, and an AI version of me you can chat with.
+
+---
+
+## Main project
+
+### Agent Deck *(private, demo on [iren.page](https://iren.page))*
+A macOS development environment for running many Claude Code agents in parallel. A planning agent splits the work, each agent builds on its own branch, and changes merge once the tests pass. Approvals are tiered by risk, and a plan library keeps tasks, decisions and hand-overs.
+
+<img src="assets/agent-deck.webp" alt="Agent Deck: a session asks for approval, then the plan library shows items in progress" width="640">
 
 ---
 
@@ -25,14 +34,9 @@ A 2D pixel-art survival action game made in Godot 4. **[Play it in the browser](
 
 ---
 
-## Private projects
+## Other private projects
 
 These repositories are private. Recordings and write-ups are on [iren.page](https://iren.page).
-
-### Agent Deck *(private, demo on the site)*
-A macOS development environment for running many Claude Code agents in parallel. A planning agent splits the work, each agent builds on its own branch, and changes merge once the tests pass. Approvals are tiered by risk, and a plan library keeps tasks, decisions and hand-overs.
-
-<img src="assets/agent-deck.webp" alt="Agent Deck: a session asks for approval, then the plan library shows items in progress" width="640">
 
 ### SCIR *(research project, unpublished)*
 Hit-reaction generation for game characters: a lightweight model produces 2 seconds of full-body motion from the pose and the hit in one pass, demonstrated on a character in Unreal Engine.
