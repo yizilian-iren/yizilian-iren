@@ -18,7 +18,7 @@ A macOS development environment for running many Claude Code agents in parallel.
 ## Public projects
 
 ### [LLM IME](https://github.com/yizilian-iren/llm-ime)
-A Chinese input method for macOS: type only the first letter of each syllable (`wjdzgxfh`) and a small fine-tuned language model, running locally, suggests the whole sentence (我觉得这个想法很好) from the text before the cursor. Nothing typed leaves the Mac. I use it every day.
+A Chinese input method for macOS: type only the first letter of each syllable (`wjdzgxfh`) and a small fine-tuned language model suggests the whole sentence (我觉得这个想法很好) from the text before the cursor. The same model runs on the Mac and on a home GPU, and the first answer wins; the home GPU keeps nothing typed. I use it every day.
 
 <img src="assets/llm-ime.webp" alt="LLM IME demo: typing initials in an editor and committing the whole sentence" width="640">
 
